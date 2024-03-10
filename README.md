@@ -1,10 +1,10 @@
 This is a web application built with Laravel (v8.83.27) that allows users to filter a dataset based on a person's birth year, birth month, or both. The dataset is paginated for better user experience, and the results are cached using Redis for faster retrieval.
 
 ## Features
--Filter dataset by birth year, birth month, or both.
--Paginated display of filtered dataset.
--Caching of filtered dataset using Redis.
--Pagination retrieves data from the Redis cache if available.
+- Filter dataset by birth year, birth month, or both.
+- Paginated display of filtered dataset.
+- Caching of filtered dataset using Redis.
+- Pagination retrieves data from the Redis cache if available.
 
 
 ## Prerequisites
@@ -32,8 +32,8 @@ To install and run this project locally, follow these steps:
 ## Usage
 Once the application is running, you can use the following steps to filter the dataset:
 
--Enter the birth year and/or birth month in the respective input fields.
--Click on the "Filter" button to apply the filter.
--The filtered dataset will be displayed below the filter form with pagination.
--You can navigate through the pages of the dataset using the pagination links.
+- Enter the birth year and/or birth month in the respective input fields.
+- Click on the "Filter" button to apply the filter.
+- The filtered dataset will be displayed below the filter form with pagination.
+- You can navigate through the pages of the dataset using the pagination links.
 
