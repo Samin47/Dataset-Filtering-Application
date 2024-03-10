@@ -1,0 +1,67 @@
+body {
+    position: relative;
+}
+h3 {
+    margin-top: 40px;
+    padding-left: 184px;
+    font-weight: bold;
+}
+
+.filter-form {
+    position: absolute;
+    top: 40px;
+    left: 188px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+table {
+    margin-top: 100px;
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin: 60px auto;
+}
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pagination > * {
+    padding: 5px;
+    margin: 0 2px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.pagination > li {
+    display: inline;
+}
+.result-count {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-right: 10px;
+}
+
+.btn-orange {
+    background-color: orange;
+    color: white;
+    margin-top: 15px;
+}
